@@ -1,0 +1,13 @@
+[
+  {"question": "Is California a country?","answer": false},
+  {"question": "Did 2022 pass yet?","answer": false},
+  {"question": "Did Riot Games make League of Legends?","answer": true},
+  {"question": "Anerica is a state?","answer": false},
+  {"question": "Texas is a state?","answer": true},
+  {"question": "Florida is a state?","answer": true},
+  {"question": "Japan is part of America?","answer": false},
+  {"question": "There are 24 hours in a day?","answer": true},
+  {"question": "McDonalds is a clothing store?","answer": false},
+  {"question": "Chicken nuggets taste good","answer": true}
+
+]

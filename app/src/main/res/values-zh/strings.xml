@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">quiz</string>
+    <string name="False">"假 "</string>
+    <string name="True">真</string>
+    <string name="StartGame">" 開始遊戲"</string>
+    <string name="question">問題</string>
+    <string name="welcometext">歡迎</string>
+    <string name="Score">分</string>
+    <string name="PlayAgain">再玩一遍 </string>
+</resources>

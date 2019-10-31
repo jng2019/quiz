@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">quiz</string>
+    <string name="False">False</string>
+    <string name="True">True</string>
+    <string name="question">TextView</string>
+    <string name="StartGame">Start Game</string>
+    <string name="welcometext">TextView</string>
+    <string name="Score"></string>
+    <string name="PlayAgain">Play Again</string>
+</resources>
