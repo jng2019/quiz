@@ -9,6 +9,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.gson.Gson;
 
@@ -88,6 +89,12 @@ public class Main_Activity extends AppCompatActivity {
             public void onClick(View view) {
                 game.checkAnswer(true);
                 game.setCurrentQuestion(game.getCurrentQuestion() - 1);
+                if (game.isCorrect()) {
+                    Toast.makeText(Main_Activity.this, "Correct!", Toast.LENGTH_SHORT).show();
+                }
+                if (!game.isCorrect()) {
+                    Toast.makeText(Main_Activity.this, "Incorrect!", Toast.LENGTH_SHORT).show();
+                }
                 checkForEnd();
                 if (game.getCurrentQuestion() > 0) {
                     updateDisplay();
@@ -99,10 +106,17 @@ public class Main_Activity extends AppCompatActivity {
             public void onClick(View view) {
                 game.checkAnswer(false);
                 game.setCurrentQuestion(game.getCurrentQuestion() - 1);
+                if (game.isCorrect()) {
+                    Toast.makeText(Main_Activity.this, "Correct!", Toast.LENGTH_SHORT).show();
+                }
+                if (!game.isCorrect()) {
+                    Toast.makeText(Main_Activity.this, "Incorrect!", Toast.LENGTH_SHORT).show();
+                }
                 checkForEnd();
                 if (game.getCurrentQuestion() != 0) {
                     updateDisplay();
-                }            }
+                }
+            }
         });
         playAgainButton.setOnClickListener(new View.OnClickListener() {
             @Override

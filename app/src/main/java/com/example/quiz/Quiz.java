@@ -7,6 +7,16 @@ public class Quiz {
     private int score = 0;
     private int currentQuestion;
 
+    public boolean isCorrect() {
+        return correct;
+    }
+
+    public void setCorrect(boolean correct) {
+        this.correct = correct;
+    }
+
+    private boolean correct;
+
     public Quiz(List<Question> listOfQuestions) {
         this.listOfQuestions = listOfQuestions;
         currentQuestion = listOfQuestions.size();
@@ -36,7 +46,9 @@ public class Quiz {
         if (currentQuestion > 0) {
             if (answer == listOfQuestions.get(currentQuestion - 1).isAnswer()) {
                 score++;
+                setCorrect(true);
             }
+            else {setCorrect(false);}
         }
     }
 }
