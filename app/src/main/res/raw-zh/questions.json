@@ -1,0 +1,13 @@
+[
+  {"question": "加利福尼亞是一個國家嗎？","answer": false},
+  {"question": "2022年過去了嗎？","answer": false},
+  {"question": "暴動遊戲是否使英雄聯盟？","answer": true},
+  {"question": "美國是一個國家嗎？","answer": false},
+  {"question": "德克薩斯州是州嗎?","answer": true},
+  {"question": "佛羅里達是州嗎？","answer": true},
+  {"question": "日本是美國的一部分嗎？","answer": false},
+  {"question": "一天有24小時？","answer": true},
+  {"question": "麥當勞是服裝店嗎?","answer": false},
+  {"question": "雞塊味道不錯","answer": true}
+
+]

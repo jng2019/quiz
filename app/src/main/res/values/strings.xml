@@ -5,6 +5,8 @@
     <string name="question">TextView</string>
     <string name="StartGame">Start Game</string>
     <string name="welcometext">TextView</string>
-    <string name="Score"></string>
+    <string name="Score">TextView</string>
     <string name="PlayAgain">Play Again</string>
+    <string name="Correct">Toast</string>
+    <string name="Incorrect">Toast</string>
 </resources>
